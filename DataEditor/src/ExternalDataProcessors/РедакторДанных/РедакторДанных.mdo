@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ab1daca-312b-4731-9464-984f5a4d0b68">
+  <producedTypes>
+    <objectType typeId="f0c0cc1e-862e-4be8-b045-6e03fadf8ef2" valueTypeId="c67937ec-eec1-42e1-83b6-896da5bfab16"/>
+  </producedTypes>
+  <name>РедакторДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактор данных</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="62c719ac-1fe1-4ae2-8d7f-d5c85562f293"/>
+  <defaultForm>ExternalDataProcessor.РедакторДанных.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="92feb81a-89ac-4e5a-b923-2e369e1aff43">
+    <name>ВыполняемыйТекст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполняемый текст</value>
+    </synonym>
+    <type>
+      <types>TextDocument</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="9c397323-c734-4676-8fd5-c53bd3fb3f36">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3933565b-ba60-42a3-b3c1-ef84c215e484">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
